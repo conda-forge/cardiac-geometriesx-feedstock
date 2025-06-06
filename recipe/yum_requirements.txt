@@ -1,2 +1,0 @@
-libglu1
-libgl1-mesa-dev

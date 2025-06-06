@@ -29,6 +29,7 @@ requirements:
     - cardiac-geometries-core
     - scifem
     - fenics-dolfinx
+    - libgl
 
 test:
   requires:
