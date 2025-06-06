@@ -11,7 +11,7 @@ source:
   sha256: 393ab2787b14c65184df91fc7f3e758b70daaf311224c6b9ebf3caaf7987a1fb
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - "geox=cardiac_geometries.cli:app"
@@ -29,6 +29,7 @@ requirements:
     - cardiac-geometries-core
     - scifem
     - fenics-dolfinx
+    - libgl
 
 test:
   requires:
