@@ -1,6 +1,6 @@
 {% set name = "cardiac-geometriesx" %}
 {% set python_min = "3.10" %}
-{% set version = "0.10.5" %}
+{% set version = "0.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cardiac_geometriesx-{{ version }}.tar.gz
-  sha256: 9b052005bc77f24d6248604790d15b8492d3b4951347aa8ac1348755c940927a
+  sha256: 966aad3485a7c6847cfc84bbead1340a7b6e1c274607c94bebd6adc674a3e899
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - python >={{ python_min }}
     - adios4dolfinx
     - structlog
-    - cardiac-geometries-core
+    - cardiac-geometries-core >=1.2.2
     - scifem
     - fenics-dolfinx
     - libgl
