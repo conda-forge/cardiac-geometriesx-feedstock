@@ -26,7 +26,7 @@ requirements:
     - python >={{ python_min }}
     - adios4dolfinx
     - structlog
-    - cardiac-geometries-core
+    - cardiac-geometries-core >=1.2.2
     - scifem
     - fenics-dolfinx
     - libgl
