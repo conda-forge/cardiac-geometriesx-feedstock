@@ -1,6 +1,6 @@
 {% set name = "cardiac-geometriesx" %}
 {% set python_min = "3.10" %}
-{% set version = "0.12.0" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cardiac_geometriesx-{{ version }}.tar.gz
-  sha256: 966aad3485a7c6847cfc84bbead1340a7b6e1c274607c94bebd6adc674a3e899
+  sha256: 5873530f3219f6eb890de56fce4acfc3076a6bdaa252911ac4be310d78394276
 
 build:
   number: 0
