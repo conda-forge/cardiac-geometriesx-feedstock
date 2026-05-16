@@ -1,5 +1,5 @@
 {% set name = "cardiac-geometriesx" %}
-{% set python_min = "3.10" %}
+{% set python_min = "3.12" %}
 {% set version = "0.13.0" %}
 
 package:
@@ -24,7 +24,7 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - adios4dolfinx
+    - io4dolfinx
     - structlog
     - cardiac-geometries-core >=1.2.2
     - scifem
