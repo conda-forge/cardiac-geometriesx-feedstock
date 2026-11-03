@@ -2,6 +2,7 @@
 {% set python_min = "3.12" %}
 {% set version = "0.18.0" %}
 
+
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -11,7 +12,7 @@ source:
   sha256: 72e7a3f06e659a0ce7d3dae032e620c4933cdaa9125ec68b8dc3ed3512c00728
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - "geox=cardiac_geometries.cli:app"
