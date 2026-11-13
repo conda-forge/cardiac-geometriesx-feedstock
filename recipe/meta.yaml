@@ -31,6 +31,8 @@ requirements:
     - scifem
     - fenics-dolfinx
     - libgl
+    - ukb-atlas
+    - fenicsx-ldrb
 
 test:
   requires:
